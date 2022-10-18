@@ -35,10 +35,8 @@ def transform():
             img_cr.resize(img_out_y.size, Image.BICUBIC),
             ]).convert("RGB")
         
-        #image_bytes = io.BytesIO()
+        
         final_img.save("output.jpeg")
-        #image_bytes = image_bytes.getvalue()
-        #print(image_bytes)
         
 
 
